@@ -33,6 +33,7 @@
 // @ is an alias to /src
 import Footer from '@/components/Footer.vue'
 import Bscroll from 'better-scroll'
+// import { Swiper } from 'vux'
 
 export default {
   name: 'home',
@@ -40,7 +41,11 @@ export default {
     Footer
   },
   mounted() {
-    this.scroll = new Bscroll(this.$refs.wrapper)
+    debugger
+    this.$nextTick(()=>{
+      this.scroll = new Bscroll(this.$refs.wrapper)
+    })
+
   }
 }
 </script>
