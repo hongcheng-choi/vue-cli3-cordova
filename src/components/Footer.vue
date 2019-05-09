@@ -4,7 +4,7 @@
             <router-link to="/">
                 <div class="navBox">
                     <span style="display: block;margin-bottom: 3px">
-                        <img src="../assets/img/index@2x.png" width="20" height="20" alt="">
+                        <img src="@/assets/img/index@2x.png" width="20" height="20" alt="">
                     </span>
                     <span>首页</span>
                 </div>
