@@ -9,7 +9,8 @@
 export default {
   data() {
     return {
-      color: '#ff0000'
+      color: '#ff0000',
+      add:'1'
     }
   }
 }
