@@ -12,6 +12,15 @@
         </van-swipe>
       </div>
     </div>
+    <!--菜单-->
+    <div>
+      <ul>
+        <li>12</li>
+        <li>12</li>
+        <li>12</li>
+        <li>12</li>
+      </ul>
+    </div>
     <div ref="wrapper" class="scroll">
       <ul>
         <li>1</li>
